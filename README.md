@@ -17,6 +17,10 @@ To start a web server for the application, run:
 ## Testing
 
    1. invoke the web server    
+   
+      method 1. in leiningen environment => ```lein ring server```
+ 
+      method 2. using jar file to invoke => ```java -jar target/clojure-rest-0.1.0-1-standalone.jar``` 
 
    2. use python script to generating testing data into Sqlite database
 
@@ -24,10 +28,10 @@ To start a web server for the application, run:
 
    3. testing command
 
-      curl http://localhost:3000/items?level=10&job=Barbarian&strength=6&limit=3
-      curl http://localhost:3000/users?level=20&job=Barbarian&limit=17
+      ```curl http://localhost:3000/items?level=10&job=Barbarian&strength=6&limit=3```
+      ```curl http://localhost:3000/users?level=20&job=Barbarian&limit=17```
 
-## SQL part
+## checking the SQL part
 
   * connect sqlite database
  

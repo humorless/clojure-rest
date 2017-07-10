@@ -1,4 +1,4 @@
-(ns clojure-rest.core
+(ns clojure-rest.handler
   (:require [compojure.core :refer :all]
             [compojure.route :as route]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
